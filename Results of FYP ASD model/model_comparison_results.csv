@@ -1,0 +1,5 @@
+Model,CV_AUC_Mean,CV_AUC_Std,Best_Params
+Random_Forest,0.9569400196452422,0.0,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 4, 'model__min_samples_split': 5, 'model__n_estimators': 600}"
+XGBoost,0.9692690549321858,0.0,"{'model__colsample_bytree': 0.7, 'model__learning_rate': 0.03, 'model__max_depth': 7, 'model__n_estimators': 600, 'model__subsample': 0.75}"
+SVM,0.9147185268013903,0.0,"{'model__C': 5, 'model__gamma': 'scale', 'model__kernel': 'rbf'}"
+LightGBM,0.9653968553486777,0.0,"{'model__learning_rate': 0.03, 'model__max_depth': 7, 'model__n_estimators': 600, 'model__num_leaves': 31}"
